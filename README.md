@@ -1,4 +1,4 @@
-This directory contains integration tests for omnata-push.
+A demo of Omnata Push.
 
 ```
 dbt deps
