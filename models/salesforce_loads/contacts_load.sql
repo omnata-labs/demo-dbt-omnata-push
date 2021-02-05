@@ -14,5 +14,5 @@ select OBJECT_CONSTRUCT('FirstName',LAST_NAME,
         'ContactNumber__c',CONTACT_NUMBER,
         'Title',TITLE,
         'Email',EMAIL,
-        'Account',OBJECT_CONSTRUCT('Account_Number__c',ACCOUNT_NUMBER)) as RECORD
+        'Account',OBJECT_CONSTRUCT('AccountNumber__c',ACCOUNT_NUMBER)) as RECORD
 from {{ ref('contacts') }}
