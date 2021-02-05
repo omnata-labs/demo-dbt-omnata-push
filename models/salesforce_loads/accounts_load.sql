@@ -10,7 +10,7 @@
 }}
 
 select OBJECT_CONSTRUCT('Name',NAME,
-                      'AccountID__c',ACCOUNT_ID) as RECORD
+        'AccountID__c',ACCOUNT_ID) as RECORD
 from {{ ref('accounts') }}
 where 1=1
 
